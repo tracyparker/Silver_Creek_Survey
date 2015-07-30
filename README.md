@@ -1,0 +1,2 @@
+# Silver_Creek_Survey
+Mock voting form for students of Silver Creek HS to vote for prom king and queen. Fields for name, email, senior or junior, king, and queen. Is hooked up to a database I created in PHP My Admin. Email is set to "unique" to prevent voting more than once. Would be intended for voting done on school intranet computers only. No need to make it screen size responsive since they would be only voting on desktop computers at the school.
