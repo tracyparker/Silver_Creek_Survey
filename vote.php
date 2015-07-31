@@ -56,3 +56,5 @@ if ($mysqli->connect_errno){
 }
 
 $result = $mysqli->query($query);
+
+?>
