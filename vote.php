@@ -6,13 +6,10 @@ include(ROOT_PATH . 'inc/header.php');
 
  ?>
 
-
-
 <html>
 	<body>
-
-		<div id="index-content">
-	 	 <div class="welcome">
+	  <div id="index-content">
+	    <div class="welcome">
 	  		<h2>Thanks For Voting!</h2> 		
 	  	</div>
 
@@ -20,19 +17,18 @@ include(ROOT_PATH . 'inc/header.php');
 	  		<img class="dragon" src="img/g386.png"> 
 	  	</div>
 
-	  <div id="content">
-	  	<h1>Welcome <?php echo $_POST["name"]; ?></h1><br><br>
-		<h2>Your email address is: <?php echo $_POST["email"]; ?><br><br>
-		You are a: <?php echo $_POST["srjr"]; ?><br><br>
-		You voted for <?php echo $_POST["king"]; ?> as your prom King!<br><br>
-		You voted for <?php echo $_POST["queen"]; ?> as your prom Queen!</h2>
+		<div id="content">
+		  	<h1>Welcome <?php echo $_POST["name"]; ?></h1><br><br>
+			<h2>Your email address is: <?php echo $_POST["email"]; ?><br><br>
+			You are a: <?php echo $_POST["srjr"]; ?><br><br>
+			You voted for <?php echo $_POST["king"]; ?> as your prom King!<br><br>
+			You voted for <?php echo $_POST["queen"]; ?> as your prom Queen!</h2>
 
-		<form action="index.php">
-    		<input class="submit" type="submit" value="DONE">
-		</form>
-		
-	  </div>
-
+			<form action="index.php">
+	    		<input class="submit" type="submit" value="DONE">
+			</form>
+		</div>
+	   </div>
 	</body>
 </html>
 
